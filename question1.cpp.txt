@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace srd;
+#define ll long long
+#define m 1000000007
+
+//Dhiraj Sareen 2010990193
+//write a program that uses 2 vectors,1 for names(string) and 1 for grades(longs)
+int main(){
+    //here we are asking the user for name and grade
+        file i_o():
+        int n;
+        cin››n;
+
+        vector‹string› names (n) ;
+
+        vector‹Long Long › grades (n);
+
+        for (int 1=0;i‹n;i++){
+            cin››names[i];
+       }
+
+       for(int i=0;i<n;i++){
+        cin>>grades[i];
+        }
+// this is the code for mean
+        int mean=0;
+        for(int i=0;i<n;i++){
+            mean+=grades[i];
+            }
+            mean=mean/m;
+
+            cout<<"<Mean of grades are"<<mean<<endl;
+        return 0;
+        }
